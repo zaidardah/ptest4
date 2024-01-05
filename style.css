@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+}
+.container1{
+    background-color: rgb(252, 240, 14);
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    max-width: calc(100% - 60px);
+    margin: auto;
+    margin-top: 1%;
+    
+}
+.hero{
+ margin: auto;
+}
+.container2{
+    max-width: calc(100% - 1100px);
+    margin: auto;
+}
+.herotext{
+margin-top: 2%;
+margin-bottom: 5%;
+}
+.hero1{
+    display: flex;
+}
+.un{
+    color: Orange;
+    margin-right: 1%;
+}
+.unbig{
+    display: flex;
+    width: 100%;
+   
+}
+.heroboton{
+    display: flex;
+    width: 100%;
+}
+.heroboton a{
+    text-decoration: none;
+    color: #000000;
+}
+.ExploreCourses {
+    background-color: #FF9500;
+   
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    height: 100%;
+
+}
+.nav2{
+    display: flex;
+    align-items: center;
+}
+.nav2 p{
+    align-items: center;
+}
+.nav2 button{
+    color: rgb(0, 0, 0);
+    background-color: #b5b1b1;
+}
+.shape{
+    background-color: rgb(168, 167, 152);
+   display: flex;
+   align-items: center;
+
+}
+.shape .text{
+   display: flex;
+   flex-wrap: nowrap;
+    padding: 1%;
+    justify-content: space-between;
+}
+.text {
+  display: flex;
+  justify-content: space-between;
+}
+.shap1{
+    background-color: #FF9500;
+}
+.container{
+    max-width: calc(100% - 120px);
+    margin: auto;
+ 
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #e5e0e0;
+}
+.big{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.log{
+   
+    width: 100%;
+}
+.Benefits .row:nth-child(1){
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.Benefits p{
+    width: 70%;
+    text-align: left;
+   
+}
+.Benefits a{
+    background-color: rgba(252, 252, 253, 1);
+    text-decoration: none;
+    padding: 1%;
+    color:  rgba(38, 38, 38, 1);
+    
+}
+.Benefits .pic{
+    display: flex;
+    justify-content: right;
+    font-size: 18px;
+}
+.Benefits .card{
+    display: flex;
+    flex: 1 1 400px;
+    flex-direction: column;
+   border-radius: 12px;
+  justify-content: right;
+  background-color: rgb(211, 219, 219);
+  align-items: stretch;
+  padding: 2%;
+  
+}
+.Benefits .row:nth-child(2){
+  gap: 1rem;
+  align-items: stretch;
+}
+.Benefits .arow{
+    background: #FCFCFD;
+}
+.Benefits .num{
+    display: flex;
+    justify-content: right;
+    font-size: 300%;
+   
+}
+.testimonial h3{
+    color: #262626;
+    font-size: 150%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.testimonial .row:nth-child(1){
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.testimonial p{
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+  
+   
+}
+.testimonial a{
+   
+    background-color: rgba(252, 252, 253, 1);
+    text-decoration: none;
+    padding: 0.7%;
+    color:  rgba(38, 38, 38, 1);
+}
+.testimonial .row:nth-child(2){
+  
+    display: flex;
+align-items: flex-start;
+gap: 30px;
+align-self: stretch;
+  }
+.testimonial .card{
+    display: flex;
+    flex: 1 1 500px;
+    flex-direction: column;
+   border-radius: 12px;
+  justify-content: right;
+  background-color: rgb(228, 235, 235);
+  align-items: stretch;
+  padding: 2%;
+  
+}
+.testimonial .photo{
+    display: flex;
+    justify-content: space-between;
+
+     padding: 3%;
+     align-items: center;
+     align-self: stretch;
+}
+
+.testimonial .per{
+    display: flex;
+    justify-content: space-between;
+  align-items: center;
+
+}
+.Pricing .row{
+    display: flex;
+    align-content: space-between;
+}
+.Pricing .row p{
+    width: 70%;
+}
+.secpot{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    padding: 1%;
+    align-content: space-between;
+}
+
+.secpot a{
+   
+    text-decoration: none;
+   
+    color:  rgba(38, 38, 38, 1);
+    
+}
+   
+.secpot .sec1{
+background-color:#FF9500;
+padding: 1%;
+}
+.secpot .sec2{
+    padding: 1%;
+
+}
+.month{
+    display: flex;
+    text-align: center;
+    align-self: flex-end;
+}
+.ava{
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    align-self: stretch;
+}
+.acc{
+    display: flex;
+    width: 100%;
+
+}
+.acc img{
+   
+    background-color: rgba(255, 244, 229, 1);
+    width: 8%;
+    height: 8%;
+}
+.Pricing .row:nth-child(1){
+    align-content: space-between;
+   
+}
+.Pricing .row:nth-child(2){
+    text-align: center;
+   
+    
+}
+.get{
+    background-color: rgba(255, 149, 0, 1);
+}
+.fimg{
+    background-color: #FF9500;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    background-color: #aaa4a4;
+    padding: 5%;
+}
+.fsec2{
+   display: flex;
+}
+.ftext{
+    display: flex;
+    align-items: center;
+    width: 130%;
+   
+}
+.ficon{
+    padding: 0.5%;
+}
+.fsocial{
+    display: flex;
+}
+.fsicon{
+    padding: 2%;
+    margin: 2%;
+}
